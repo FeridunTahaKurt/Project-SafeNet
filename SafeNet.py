@@ -95,6 +95,7 @@ def scanTextFile():
         
 button2TextFile= CTkButton(master=app,text="Start The Scan",corner_radius=32,font=("Arial",15),fg_color="#6666ff",command= scanTextFile).pack()
 
+empty3= CTkLabel(master=app,text="").pack()
 head_scan_web= CTkLabel(master=app,text="Scan Websites",font=("Arial",25),text_color="#66ff99").pack()
 inf_website= CTkLabel(master=app,text="Write The Website You Want to Scan",font=("Arial",15)).pack()
 entry_website= CTkEntry(master=app,width=300, corner_radius=32)
