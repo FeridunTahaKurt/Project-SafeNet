@@ -19,3 +19,4 @@ g++ installation.cpp -o installation.exe
 ```sh
 installation.exe
 ```  
+![Proje Görseli](tool_photo.png)
