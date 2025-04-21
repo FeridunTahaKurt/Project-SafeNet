@@ -10,7 +10,7 @@ import subprocess as sub
 import hashlib
 
 app= CTk()
-app.geometry("800x600")
+app.geometry("800x800")
 
 hash_codes=[]
 
